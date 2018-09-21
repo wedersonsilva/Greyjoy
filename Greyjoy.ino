@@ -11,8 +11,8 @@
 
 int SL1 = 2;          //Sensor de linha 1
 int SL2 = 4;          //Sensor de linha 2
-const int TRIG = 13;    //variavel emissor do ultrassom 1
-const int ECHO = 12;    //variavel receptor do ultrassom 1
+const int TRIG = 10;    //variavel emissor do ultrassom 1
+const int ECHO = 11;    //variavel receptor do ultrassom 1
 int VALOR_SL1 = 0;                // Captura o valor do sensor de linha da frente
 int VALOR_SL2 = 0;                // Captura o valor do sensor de linha de tras
 unsigned long TEMPO_PULSO;        // Tempo do pulso do ultrasson
@@ -126,9 +126,10 @@ void LER_SOM()                    // Funcao para LER SENSOR ULTRASSONICO
   digitalWrite(TRIG, LOW);        // Desliga o TRIG
   
   TEMPO_PULSO = pulseIn(ECHO, HIGH);    // CALCULA O TEMPO DO PULSO DO ULTRASSOM
-  DISTANCIA = (TEMPO_PULSO / 2) / 29.1; // CALCULA A DISTANCIA em CENTIMETROS      
+  DISTANCIA = (TEMPO_PULSO / 2) / (29.1); // CALCULA A DISTANCIA em CENTIMETROS      
 
   Serial.print("Distância = ");
+  //Serial.print(TEMPO_PULSO);
   Serial.print(DISTANCIA);
   Serial.println(" cm");  
 }   
