@@ -35,7 +35,7 @@ void PARA();
 void setup() {
   Serial.begin(9600);
     
-  delay(2000);
+  delay(3700);
   
   servoLeft.attach(6);       
   servoRight.attach(8);
@@ -106,8 +106,8 @@ void ESQUERDA()
 
 void DIREITA()
 {
-  servoLeft.write(180);
-  servoRight.write(0);  
+  servoLeft.write(0);
+  servoRight.write(180);  
   Serial.println("Desvio para DIREITA");
 }
 
@@ -168,7 +168,7 @@ void ESCAPAR()                    // Funcao para ESCAPAR DA LINHA BRANCA
     delay(750);
   }
   else if((VALOR_SL2 < LIMIAR) && (VALOR_SL1 > LIMIAR)){
-    TRAS();
+    FRENTE();
     delay(750);
   }    
   else{
