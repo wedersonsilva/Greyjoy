@@ -13,16 +13,14 @@ Participou do torneio da disciplina, no mesmo ano participou da Semana do Instit
 # Batalha Sumô
 Em resumo, dois robôs de mesma categoria são posicionados na arena, e então a batalha começa. O primeirorobô que empurrar o adversário para fora da arena, será o vencedor!
 
-<p align="center">
-<figure>
-  <img width="300" height="300" src="./imgs/arena_sumo_robo.png">
-	<figcaption>Arena de Batalha Sumô</figcaption>
-</figure>
-</p>
+Uma arena de batalha sumô, na maioria das vezes, tem o formato da imagem abaixo:
 
+![image info](imgs/arena_sumo_robo.png "Arena de Batalha Sumô Robô")
 
+[Aqui](docs/regras_sumo_robo-LabPro2018.pdf) tem um exemplo de regulamento completo para uma competição de batalha sumô robô [pt-br].
 
-Um exemplo de **regulamento completo** pode ser encontrado [aqui](./docs/regras_sumo_robo-LabPro2018.pdf)
+# Características do Greyjoy
+Este robô possui um chassi feito de acrílico, usa rodas de aeromodelo, tem dois servo motores modificados (180º transformado em 360º), um sensor ultrassônico HC-SR e um microcontrolador Arduíno.
 
 ### ATENÇÃO!!!!
 A versão do código está sendo testada.
