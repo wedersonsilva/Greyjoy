@@ -1,6 +1,12 @@
+####[PT-BR]
+
 # Greyjoy
-An autonomous sumo fight robot!
+Um robô autônomo para batalha sumô.
 
-## ATENÇÂO!!!!
+# História
+O Greyjoy foi desenvolvido em 2013 dentro da Universidade Federal do Pará, por uma equipe do curso de Engenharia da Computação:
 
-Versão ainda bugada. Use por sua conta e risco! 
+- José Soares, Luan Gonçalves, Luiz Henrique, Mylena Reis e Wederson Silva
+
+### ATENÇÃO!!!!
+A versão do código está sendo testada.
